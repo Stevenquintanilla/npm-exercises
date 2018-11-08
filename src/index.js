@@ -1,10 +1,8 @@
-const $ = require('jquery');
+//require method
+// const data = require('./say-hello');
+//
+// console.log(data.sayHello());
 
+import message from './say-hello';
 
-const sayHello = () => {console.log("hello")};
-
-sayHello();
-
-$(document).ready(function () {
-    $('#test').text('test')
-});
+console.log(message.sayHello());
